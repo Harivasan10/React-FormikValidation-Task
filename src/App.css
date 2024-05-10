@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+
+body {
+  background-color: rgb(48, 48, 48); 
+  font-family: "Josefin Sans", sans-serif; 
+  font-weight: bolder; 
+  color: rgb(20, 16, 24); 
+  overflow: hidden; 
+  object-fit: cover; 
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(48, 48, 48); 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: bolder; 
+    color: rgb(20, 16, 24); 
+    overflow: hidden; 
+    object-fit: cover; 
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+    background-color: rgb(48, 48, 48); 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: bolder; 
+    color: rgb(20, 16, 24); 
+    overflow: hidden; 
+    object-fit: cover; 
+  }
+}
+
+.gradient-bg {
+  font-size: 72px; 
+  background: -webkit-linear-gradient(#e905bb, #740606); 
+  -webkit-text-fill-color: transparent; 
+}
+
+.gradient-bg2 {
+  font-weight: bolder; 
+  font-size: 35px; 
+  background: -webkit-linear-gradient(#e8e7e6ee, #37d4d4); 
+  -webkit-text-fill-color: transparent; 
+}
